@@ -77,7 +77,7 @@ audio{
     display: flex;
     align-items:center;
     justify-content:space-evenly;
-    margin: 25px;
+    margin: 30px 20px;
 }
 .control div{
     width: 40px;

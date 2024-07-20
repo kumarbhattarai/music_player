@@ -26,13 +26,15 @@
 <h2>Night Changes</h2>
 <p>One Direction</p>
 <audio id="song">
-    <source class="hello2" src="One_Direction_-_Night_Changes_(Lyrics)(128k).mp3" type="audio/mpeg">
+    <source id="audioSource" src="One_Direction_-_Night_Changes_(Lyrics)(128k).mp3" type="audio/mpeg">
+
 </audio>
 <input type="range" value="0" id="progress">
 <div class="control">
-    <div><i class="fa-solid fa-backward"></i></div>
+    <div onclick="backward()"><i class="fa-solid fa-backward"></i></div>
    <div onclick="playpause()"><i class="fa-solid fa-play" id="ctrlicon"></i></div>
-    <div> <i class="fa-solid fa-forward"></i></div>
+    <div onclick="forward()"> 
+        <i class="fa-solid fa-forward"></i></div>
 </div>
         </div>
     </div>
